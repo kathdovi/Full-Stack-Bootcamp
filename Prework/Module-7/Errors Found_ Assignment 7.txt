@@ -1,0 +1,20 @@
+﻿Errors Found:
+--
+The title in broken code was not a header type (<h1>), so that was the first fix.
+Then I deleted the instructions on the broken code, which wasn’t an error, but it was the next thing I did.
+--
+The next fix was breaking up the About Boo into paragraph elements. I followed the same paragraph break template as was demonstrated in the Grumpy Cat Fan Page example.
+--
+The next error was so blatantly obvious… the image wasn’t rendering and it was just missing a beginning pointy brace. Idk how you can even make that error while using a text editor that has syntax highlighting, but hey, I’ve made some pretty weird errors in Java so I guess I’m not to talk. After adding the <, the image rendered, and a picture of a beautiful pup was on the webpage.
+--
+The next errors I probably did out of order. I took a look at the js file and found that the booFacts array had one opening “ and one closing “, leading to the elements not being seperated in the array, so I fixed that.
+--
+Another thing I found with the js file was the lack of a closing double quote after pink in the textPink function.
+-- 
+The next thing I found is that y’all linked the wrong js file on the html doc, so nothing was functioning. I fixed that.
+--
+Then I saw that the text color buttons weren’t changing to the “right” color, so I thought I would find out why not by going to the html and looking at the id for the elements, and I was right again. I changed the id to match the text that was already on the buttons.
+--
+Next, I fixed the order of the elements. They weren’t in the same order as the correct code.
+--
+The next thing I fixed was the list: the elements weren’t marked off with <li></li>, so I made sure they each were wrapped in a li tag.

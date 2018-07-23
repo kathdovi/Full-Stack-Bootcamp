@@ -1,0 +1,49 @@
+p.red {
+    color: red;
+}
+
+p.blue {
+    color: blue;
+}
+
+p.green {
+    color: green;
+}
+
+p.big {
+    font-size: 2em;
+}
+
+p.small {
+    font-size: .5em;
+}
+
+p.center {
+    text-align: center;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+p.special {
+    font-family: 'Slabo 27px', serif;
+}
+
+p.orange {
+    color: orange;
+}
+
+p.thick.orange.big{}
+
+p.styledFont {
+    color: green;
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.2em;
+}
+
+#styledImage {
+    border-style: solid;
+    border-color: pink;
+    border-width: 10px
+}
