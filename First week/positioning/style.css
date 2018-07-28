@@ -1,0 +1,22 @@
+.first {
+    margin: 0 20% 0 20%;
+}
+
+.absolute {
+    color: white;
+    margin-left: 20%;
+    background: #666;
+    position: absolute;
+    width: 30%;
+    height: 100px;
+    right: -10px;
+    bottom: 0px;
+}
+
+.relative {
+    background: #ccc;
+    height: 200px;
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
