@@ -1,2 +1,2 @@
 # Full Stack Bootcamp
-Things from my full stack bootcamp
+Classwork from full stack bootcamp lessons, not including projects
