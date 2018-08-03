@@ -1,0 +1,25 @@
+body {
+    background-color: #565656;
+}
+div.link {
+    margin: auto;
+    text-align: center;
+}
+
+a {
+    font-size: 50px;
+    color: palegreen;
+
+}
+
+a:hover {
+    color: paleturquoise;
+}
+
+a:active {
+    color: pink;
+}
+
+a:focus {
+    color: plum; 
+}

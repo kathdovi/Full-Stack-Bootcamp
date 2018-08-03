@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Roboto Slab', serif;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    line-height: 65px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: justify;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 50%;
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
