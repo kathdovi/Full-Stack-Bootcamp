@@ -1,0 +1,37 @@
+h1 {
+    font-family: 'Roboto Slab', serif;
+    margin: auto;
+    text-align: center;
+    line-height: 65px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div.jumbotron {
+    background-color: aliceblue;
+}
+
+span.badge {
+    background-color: pink;
+    color: #222;
+}
+
+p.text {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    text-align: justify;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 75%;
+    font-size: 16px;
+    font-weight: 700px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.list-group-item {
+    background-color: aliceblue;
+    color: black;
+}
