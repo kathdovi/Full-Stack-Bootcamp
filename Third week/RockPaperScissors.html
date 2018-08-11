@@ -9,14 +9,17 @@
 
 <body>
 
-    <div id="game">
-
+    <div class="game">
+        <div class = "userChoice">Press r, p, or s to start</div>
+        <div class = "computerChoice"></div>
+        <div class = "outcome"></div>
+        <div class = "score"></div>
     </div>
 
     <script type="text/javascript">
 
         // Creates an array that lists out all of the options (Rock, Paper, or Scissors).
-        var computerChoices = ["r", "p", "s"];
+        let computerChoices = ["r", "p", "s"];
         let userScore = 0;
         let computerScore = 0;
 
@@ -24,40 +27,41 @@
         document.onkeyup = function (event) {
 
             // Determines which key was pressed.
-            var userGuess = event.key;
+            let userGuess = event.key;
 
             // Randomly chooses a choice from the options array. This is the Computer's guess.
-            var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+            let computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 
             // Alerts the key the user pressed (userGuess).
-            alert("User guess: " + userGuess);
+            document.querySelector(".userChoice").innerHTML = "User guess: " + userGuess;
+            console.log("User guess: " + userGuess);
 
             // Alerts the Computer's guess.
-            alert("Computer guess: " + computerGuess);
+            document.querySelector(".computerChoice").innerHTML = "Computer guess: " + computerGuess;
 
             if (userGuess === computerGuess) {
-                alert("Tie");
+                document.querySelector(".outcome").innerHTML = "Tie";
             } else if (userGuess === "r" && computerGuess === "s") {
                 userScore++;
-                alert("Rock breaks Scissors. You win.");
+                document.querySelector(".outcome").innerHTML = "Rock breaks Scissors. You win.";
             } else if (userGuess === "s" && computerGuess === "p") {
                 userScore++;
-                alert("Scissors cut Paper. You win."); 
+                document.querySelector(".outcome").innerHTML = "Scissors cut Paper. You win."; 
             } else if (userGuess === "p" && computerGuess === "r") {
                 userScore++;
-                alert("Paper covers Rock. You win.");
+                document.querySelector(".outcome").innerHTML = "Paper covers Rock. You win.";
             }  else if (computerGuess === "r" && userGuess === "s") {
                 computerScore++;
-                alert("Rock breaks Scissors. I win.");
+                document.querySelector(".outcome").innerHTML = "Rock breaks Scissors. I win.";
             } else if (computerGuess === "s" && userGuess === "p") {
                 computerScore++;
-                alert("Scissors cut Paper. I win.");
+                document.querySelector(".outcome").innerHTML = "Scissors cut Paper. I win.";
             } else if (computerGuess === "p" && userGuess === "r") {
                 computerScore++;
-                alert("Paper covers Rock. I win.");
+                document.querySelector(".outcome").innerHTML = "Paper covers Rock. I win.";
             }
 
-            alert("User: " + userScore + " –– Computer: " + computerScore);
+            document.querySelector(".score").innerHTML = "User: " + userScore + " –– Computer: " + computerScore;
 
 
 
